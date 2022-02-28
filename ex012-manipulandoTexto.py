@@ -1,0 +1,16 @@
+frase = 'Testando a manipulação de texto'
+print(frase[:8])
+print(frase[0:8])
+print(frase[25:])
+print(len(frase))
+print(frase.count('a'))
+print(frase.find('alau'))
+frase = frase.replace('Testando','Utilizando')
+print(frase.upper())
+print(frase.lower())
+print(frase.capitalize())
+print(frase.title())
+frase2 = '  aprendendo python    '
+dividido = frase2.split()
+print(dividido[0])
+print(dividido[1])

@@ -1,0 +1,8 @@
+texto = input('Digite algo: ')
+print('\n- Propriedades do texto -')
+print('\nTipo do texto ', type(texto))
+print('Numérico ? ', texto.isnumeric())
+print('Alfanumérico ? ', texto.isalnum())
+print('Alfabético ? ', texto.isalpha())
+print('Minusculas ? ', texto.islower())
+print('Maiusculas ? ', texto.isupper())
