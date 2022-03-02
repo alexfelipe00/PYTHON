@@ -1,5 +1,8 @@
 #DESAFIO 048
-for c in range (1, 500):
+cont = 0
+soma = 0
+for c in range (0, 500):
     if c%2==1 and c%3 == 0:
-        c =+ c
-print(c) 
+        soma += c
+        cont += 1
+print('A soma de todos os {} valores solicitados é {}' .format(cont, soma))
