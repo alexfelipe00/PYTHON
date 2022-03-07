@@ -1,4 +1,4 @@
-#DESAFIO 063
+# DESAFIO 063
 
 numTermos = int(input('Mostrar quantos termos da sequencia de fibonacci ? '))
 flag = 0
@@ -9,12 +9,11 @@ while flag != numTermos:
     fn = f1 + f2
     if flag == 0:
         print('{}, {}, ' .format(f1, f2), end='')
-    elif flag == numTermos-1:
-        print('')
+    elif flag == numTermos:
+        print('', end='')
     else:
-        print(', ')
+        print(', ', end='')
     print('{}' .format(fn), end='')
     f1 = f2
     f2 = fn
     flag += 1
-    
