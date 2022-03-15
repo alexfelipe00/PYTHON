@@ -7,12 +7,13 @@ lista = ('Pão', 3.5,
          'Pringles Churrasco', 18)
 total = 0
 cifrão = 'R$'
-print('='*60)
+print('= f'*60)
 print(f"{'Recibo MercadoFodase':^60}\a")
 print('='*60)
 
 
 for c in range(0, len(lista)):
+    print(c)
     if c % 2 == 0:
         print('{:_<53}' .format(lista[c]), end='')
         
